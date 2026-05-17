@@ -29,6 +29,7 @@ public class MergeTwoSortedLinkedListPrbm21 {
         } else if (list2 == null) {
             mergeListNode.next = list1;
         }
+        return head.next; // ← this was missing
     }
 
   

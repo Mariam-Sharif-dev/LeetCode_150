@@ -5,7 +5,7 @@ import java.util.Stack;
 public class ReverseLinkList {
 
     public ListNode reverseLinkList(ListNode head) {
-        Stack<Integer> valStack = new Stack();
+        Stack<Integer> valStack = new Stack<Integer>();
 
         // null,head will go to next process until head is
         while (head != null) {
